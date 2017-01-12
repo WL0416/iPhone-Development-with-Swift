@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF598FE1E23628E002837BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF598FD1E23628E002837BD /* AppDelegate.swift */; };
+		CBF599031E23628E002837BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF599011E23628E002837BD /* Main.storyboard */; };
+		CBF599051E23628E002837BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF599041E23628E002837BD /* Assets.xcassets */; };
+		CBF599081E23628E002837BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF599061E23628E002837BD /* LaunchScreen.storyboard */; };
+		CBF599131E23628F002837BD /* View_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF599121E23628F002837BD /* View_SwitcherTests.swift */; };
+		CBF5991E1E23628F002837BD /* View_SwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5991D1E23628F002837BD /* View_SwitcherUITests.swift */; };
+		CBF5992C1E23637A002837BD /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5992B1E23637A002837BD /* SwitchingViewController.swift */; };
+		CBF5992E1E23644B002837BD /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5992D1E23644B002837BD /* BlueViewController.swift */; };
+		CBF599301E23646D002837BD /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5992F1E23646D002837BD /* YellowViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF5990F1E23628F002837BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF598F21E23628E002837BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF598F91E23628E002837BD;
+			remoteInfo = "View Switcher";
+		};
+		CBF5991A1E23628F002837BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF598F21E23628E002837BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF598F91E23628E002837BD;
+			remoteInfo = "View Switcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBF598FA1E23628E002837BD /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF598FD1E23628E002837BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBF599021E23628E002837BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBF599041E23628E002837BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF599071E23628E002837BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBF599091E23628E002837BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF5990E1E23628F002837BD /* View SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF599121E23628F002837BD /* View_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_SwitcherTests.swift; sourceTree = "<group>"; };
+		CBF599141E23628F002837BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF599191E23628F002837BD /* View SwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF5991D1E23628F002837BD /* View_SwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_SwitcherUITests.swift; sourceTree = "<group>"; };
+		CBF5991F1E23628F002837BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF5992B1E23637A002837BD /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		CBF5992D1E23644B002837BD /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		CBF5992F1E23646D002837BD /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF598F71E23628E002837BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF5990B1E23628F002837BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF599161E23628F002837BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF598F11E23628E002837BD = {
+			isa = PBXGroup;
+			children = (
+				CBF598FC1E23628E002837BD /* View Switcher */,
+				CBF599111E23628F002837BD /* View SwitcherTests */,
+				CBF5991C1E23628F002837BD /* View SwitcherUITests */,
+				CBF598FB1E23628E002837BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF598FB1E23628E002837BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF598FA1E23628E002837BD /* View Switcher.app */,
+				CBF5990E1E23628F002837BD /* View SwitcherTests.xctest */,
+				CBF599191E23628F002837BD /* View SwitcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF598FC1E23628E002837BD /* View Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				CBF598FD1E23628E002837BD /* AppDelegate.swift */,
+				CBF5992B1E23637A002837BD /* SwitchingViewController.swift */,
+				CBF5992D1E23644B002837BD /* BlueViewController.swift */,
+				CBF5992F1E23646D002837BD /* YellowViewController.swift */,
+				CBF599011E23628E002837BD /* Main.storyboard */,
+				CBF599041E23628E002837BD /* Assets.xcassets */,
+				CBF599061E23628E002837BD /* LaunchScreen.storyboard */,
+				CBF599091E23628E002837BD /* Info.plist */,
+			);
+			path = "View Switcher";
+			sourceTree = "<group>";
+		};
+		CBF599111E23628F002837BD /* View SwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF599121E23628F002837BD /* View_SwitcherTests.swift */,
+				CBF599141E23628F002837BD /* Info.plist */,
+			);
+			path = "View SwitcherTests";
+			sourceTree = "<group>";
+		};
+		CBF5991C1E23628F002837BD /* View SwitcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF5991D1E23628F002837BD /* View_SwitcherUITests.swift */,
+				CBF5991F1E23628F002837BD /* Info.plist */,
+			);
+			path = "View SwitcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF598F91E23628E002837BD /* View Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF599221E23628F002837BD /* Build configuration list for PBXNativeTarget "View Switcher" */;
+			buildPhases = (
+				CBF598F61E23628E002837BD /* Sources */,
+				CBF598F71E23628E002837BD /* Frameworks */,
+				CBF598F81E23628E002837BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Switcher";
+			productName = "View Switcher";
+			productReference = CBF598FA1E23628E002837BD /* View Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF5990D1E23628F002837BD /* View SwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF599251E23628F002837BD /* Build configuration list for PBXNativeTarget "View SwitcherTests" */;
+			buildPhases = (
+				CBF5990A1E23628F002837BD /* Sources */,
+				CBF5990B1E23628F002837BD /* Frameworks */,
+				CBF5990C1E23628F002837BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF599101E23628F002837BD /* PBXTargetDependency */,
+			);
+			name = "View SwitcherTests";
+			productName = "View SwitcherTests";
+			productReference = CBF5990E1E23628F002837BD /* View SwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBF599181E23628F002837BD /* View SwitcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF599281E23628F002837BD /* Build configuration list for PBXNativeTarget "View SwitcherUITests" */;
+			buildPhases = (
+				CBF599151E23628F002837BD /* Sources */,
+				CBF599161E23628F002837BD /* Frameworks */,
+				CBF599171E23628F002837BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF5991B1E23628F002837BD /* PBXTargetDependency */,
+			);
+			name = "View SwitcherUITests";
+			productName = "View SwitcherUITests";
+			productReference = CBF599191E23628F002837BD /* View SwitcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF598F21E23628E002837BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wei Li";
+				TargetAttributes = {
+					CBF598F91E23628E002837BD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CBF5990D1E23628F002837BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CBF598F91E23628E002837BD;
+					};
+					CBF599181E23628F002837BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CBF598F91E23628E002837BD;
+					};
+				};
+			};
+			buildConfigurationList = CBF598F51E23628E002837BD /* Build configuration list for PBXProject "View Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF598F11E23628E002837BD;
+			productRefGroup = CBF598FB1E23628E002837BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF598F91E23628E002837BD /* View Switcher */,
+				CBF5990D1E23628F002837BD /* View SwitcherTests */,
+				CBF599181E23628F002837BD /* View SwitcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF598F81E23628E002837BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF599081E23628E002837BD /* LaunchScreen.storyboard in Resources */,
+				CBF599051E23628E002837BD /* Assets.xcassets in Resources */,
+				CBF599031E23628E002837BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF5990C1E23628F002837BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF599171E23628F002837BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF598F61E23628E002837BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF599301E23646D002837BD /* YellowViewController.swift in Sources */,
+				CBF598FE1E23628E002837BD /* AppDelegate.swift in Sources */,
+				CBF5992E1E23644B002837BD /* BlueViewController.swift in Sources */,
+				CBF5992C1E23637A002837BD /* SwitchingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF5990A1E23628F002837BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF599131E23628F002837BD /* View_SwitcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF599151E23628F002837BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF5991E1E23628F002837BD /* View_SwitcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF599101E23628F002837BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF598F91E23628E002837BD /* View Switcher */;
+			targetProxy = CBF5990F1E23628F002837BD /* PBXContainerItemProxy */;
+		};
+		CBF5991B1E23628F002837BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF598F91E23628E002837BD /* View Switcher */;
+			targetProxy = CBF5991A1E23628F002837BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBF599011E23628E002837BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF599021E23628E002837BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF599061E23628E002837BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF599071E23628E002837BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF599201E23628F002837BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBF599211E23628F002837BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF599231E23628F002837BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "View Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WL.View-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF599241E23628F002837BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "View Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WL.View-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF599261E23628F002837BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "View SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WL.View-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/View Switcher.app/View Switcher";
+			};
+			name = Debug;
+		};
+		CBF599271E23628F002837BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "View SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WL.View-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/View Switcher.app/View Switcher";
+			};
+			name = Release;
+		};
+		CBF599291E23628F002837BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "View SwitcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WL.View-SwitcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "View Switcher";
+			};
+			name = Debug;
+		};
+		CBF5992A1E23628F002837BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "View SwitcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WL.View-SwitcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "View Switcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF598F51E23628E002837BD /* Build configuration list for PBXProject "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF599201E23628F002837BD /* Debug */,
+				CBF599211E23628F002837BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF599221E23628F002837BD /* Build configuration list for PBXNativeTarget "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF599231E23628F002837BD /* Debug */,
+				CBF599241E23628F002837BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF599251E23628F002837BD /* Build configuration list for PBXNativeTarget "View SwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF599261E23628F002837BD /* Debug */,
+				CBF599271E23628F002837BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF599281E23628F002837BD /* Build configuration list for PBXNativeTarget "View SwitcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF599291E23628F002837BD /* Debug */,
+				CBF5992A1E23628F002837BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF598F21E23628E002837BD /* Project object */;
+}

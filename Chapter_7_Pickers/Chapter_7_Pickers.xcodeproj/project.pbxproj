@@ -19,6 +19,9 @@
 		CB3885911E29E3A5008839EB /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3885901E29E3A5008839EB /* DoubleComponentPickerViewController.swift */; };
 		CB3885931E29E3D0008839EB /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3885921E29E3D0008839EB /* CustomPickerViewController.swift */; };
 		CB3885951E29E52B008839EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3885941E29E52B008839EB /* Main.storyboard */; };
+		CBF47F2D1E2B2F200090F557 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBF47F2C1E2B2F200090F557 /* statedictionary.plist */; };
+		CBF47F2F1E2B58580090F557 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = CBF47F2E1E2B58580090F557 /* win.wav */; };
+		CBF47F311E2B58690090F557 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = CBF47F301E2B58690090F557 /* crunch.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		CB3885901E29E3A5008839EB /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
 		CB3885921E29E3D0008839EB /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
 		CB3885941E29E52B008839EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CBF47F2C1E2B2F200090F557 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		CBF47F2E1E2B58580090F557 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		CBF47F301E2B58690090F557 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 		CB38855B1E29DF88008839EB /* Chapter_7_Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				CBF47F301E2B58690090F557 /* crunch.wav */,
+				CBF47F2E1E2B58580090F557 /* win.wav */,
+				CBF47F2C1E2B2F200090F557 /* statedictionary.plist */,
 				CB38855C1E29DF88008839EB /* AppDelegate.swift */,
 				CB38855E1E29DF88008839EB /* ViewController.swift */,
 				CB38858A1E29E2FE008839EB /* DatePickerViewController.swift */,
@@ -245,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3885951E29E52B008839EB /* Main.storyboard in Resources */,
+				CBF47F311E2B58690090F557 /* crunch.wav in Resources */,
 				CB3885671E29DF88008839EB /* LaunchScreen.storyboard in Resources */,
+				CBF47F2D1E2B2F200090F557 /* statedictionary.plist in Resources */,
+				CBF47F2F1E2B58580090F557 /* win.wav in Resources */,
 				CB3885641E29DF88008839EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +506,7 @@
 				CB3885831E29DF89008839EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB3885841E29DF89008839EB /* Build configuration list for PBXNativeTarget "Chapter_7_PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +515,7 @@
 				CB3885861E29DF89008839EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB3885871E29DF89008839EB /* Build configuration list for PBXNativeTarget "Chapter_7_PickersUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +524,7 @@
 				CB3885891E29DF89008839EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

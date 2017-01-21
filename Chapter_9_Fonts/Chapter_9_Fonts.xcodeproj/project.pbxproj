@@ -15,6 +15,7 @@
 		CB709E7C1E32F69400E29F99 /* Chapter_9_FontsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB709E7B1E32F69400E29F99 /* Chapter_9_FontsUITests.swift */; };
 		CB709E8A1E32F8C200E29F99 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB709E891E32F8C200E29F99 /* FavoritesList.swift */; };
 		CB709E8C1E32F9CF00E29F99 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB709E8B1E32F9CF00E29F99 /* RootViewController.swift */; };
+		CB709E8E1E33190200E29F99 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB709E8D1E33190200E29F99 /* FontListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CB709E7D1E32F69400E29F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB709E891E32F8C200E29F99 /* FavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 		CB709E8B1E32F9CF00E29F99 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CB709E8D1E33190200E29F99 /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CB709E5B1E32F69400E29F99 /* AppDelegate.swift */,
 				CB709E891E32F8C200E29F99 /* FavoritesList.swift */,
 				CB709E8B1E32F9CF00E29F99 /* RootViewController.swift */,
+				CB709E8D1E33190200E29F99 /* FontListViewController.swift */,
 				CB709E5F1E32F69400E29F99 /* Main.storyboard */,
 				CB709E641E32F69400E29F99 /* LaunchScreen.storyboard */,
 				CB709E621E32F69400E29F99 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB709E5C1E32F69400E29F99 /* AppDelegate.swift in Sources */,
+				CB709E8E1E33190200E29F99 /* FontListViewController.swift in Sources */,
 				CB709E8A1E32F8C200E29F99 /* FavoritesList.swift in Sources */,
 				CB709E8C1E32F9CF00E29F99 /* RootViewController.swift in Sources */,
 			);

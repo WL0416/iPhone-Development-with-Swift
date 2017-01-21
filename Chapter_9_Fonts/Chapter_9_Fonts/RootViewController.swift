@@ -56,16 +56,6 @@ class RootViewController: UITableViewController {
         tableView.reloadData()
     }
     
-    func fontForDisplay(atIndexPath indexPath: NSIndexPath) -> UIFont? {
-        if indexPath.section == 0 {
-            let familyName = familyNames[indexPath.row]
-            let fontName = UIFont.fontNamesForFamilyName(familyName).first! as String
-            return UIFont(name: fontName, size: cellPointSize)
-        } else {
-            return nil
-        }
-    }
-    
     override func tableView(tableView: UITableView,
                             titleForHeaderInSection section: Int) -> String? {
         return section == 0 ? "All Font Families" : "My Favorite Fonts"
@@ -133,5 +123,14 @@ class RootViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    func fontForDisplay(atIndexPath indexPath: NSIndexPath) -> UIFont? {
+        if indexPath.section == 0 {
+            let familyName = familyNames[indexPath.row]
+            let fontName = UIFont.fontNamesForFamilyName(familyName).first! as String
+            return UIFont(name: fontName, size: cellPointSize)
+        } else {
+            return nil
+        }
+    }
 }

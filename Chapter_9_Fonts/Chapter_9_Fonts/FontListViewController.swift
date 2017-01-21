@@ -9,6 +9,11 @@
 import UIKit
 
 class FontListViewController: UITableViewController {
+    
+    var fontNames: [String] = []
+    var showsFavorites:Bool = false
+    private var cellPointSize: CGFloat!
+    private let cellIdentifier = "FontName"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +23,10 @@ class FontListViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        let preferredTableViewFont =
+            UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
+        cellPointSize = preferredTableViewFont.pointSize
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,23 +38,33 @@ class FontListViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        //return 0
+        return fontNames.count
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        if showsFavorites {
+            fontNames = FavoritesList.sharedFavoriteList.favorites
+            tableView.reloadData()
+        }
+    }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
-        // Configure the cell...
-
+        let cell =  tableView.dequeueReusableCellWithIdentifier(cellIdentifier,
+                                                                forIndexPath: indexPath) as UITableViewCell
+        cell.textLabel!.font = fontForDisplay(atIndexPath: indexPath)
+        cell.textLabel!.text = fontNames[indexPath.row]
+        cell.detailTextLabel?.text = fontNames[indexPath.row]
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -91,5 +110,10 @@ class FontListViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func fontForDisplay(atIndexPath indexPath: NSIndexPath) -> UIFont {
+        let fontName = fontNames[indexPath.row]
+        return UIFont(name: fontName, size: cellPointSize)!
+    }
 
 }

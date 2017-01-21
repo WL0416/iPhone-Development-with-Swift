@@ -14,6 +14,8 @@
 		CB33FD2B1E2F12D700ED81A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB33FD291E2F12D700ED81A2 /* LaunchScreen.storyboard */; };
 		CB33FD361E2F12D700ED81A2 /* Chapter_8_Table_CellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FD351E2F12D700ED81A2 /* Chapter_8_Table_CellsTests.swift */; };
 		CB33FD411E2F12D700ED81A2 /* Chapter_8_Table_CellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FD401E2F12D700ED81A2 /* Chapter_8_Table_CellsUITests.swift */; };
+		CB33FD4F1E2F13B800ED81A2 /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FD4E1E2F13B800ED81A2 /* NameAndColorCell.swift */; };
+		CB33FD511E2F15BB00ED81A2 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB33FD501E2F15BB00ED81A2 /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CB33FD3C1E2F12D700ED81A2 /* Chapter_8_Table_CellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chapter_8_Table_CellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB33FD401E2F12D700ED81A2 /* Chapter_8_Table_CellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter_8_Table_CellsUITests.swift; sourceTree = "<group>"; };
 		CB33FD421E2F12D700ED81A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB33FD4E1E2F13B800ED81A2 /* NameAndColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
+		CB33FD501E2F15BB00ED81A2 /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				CB33FD201E2F12D700ED81A2 /* AppDelegate.swift */,
 				CB33FD221E2F12D700ED81A2 /* ViewController.swift */,
+				CB33FD4E1E2F13B800ED81A2 /* NameAndColorCell.swift */,
 				CB33FD241E2F12D700ED81A2 /* Main.storyboard */,
+				CB33FD501E2F15BB00ED81A2 /* NameAndColorCell.xib */,
 				CB33FD271E2F12D700ED81A2 /* Assets.xcassets */,
 				CB33FD291E2F12D700ED81A2 /* LaunchScreen.storyboard */,
 				CB33FD2C1E2F12D700ED81A2 /* Info.plist */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB33FD511E2F15BB00ED81A2 /* NameAndColorCell.xib in Resources */,
 				CB33FD2B1E2F12D700ED81A2 /* LaunchScreen.storyboard in Resources */,
 				CB33FD281E2F12D700ED81A2 /* Assets.xcassets in Resources */,
 				CB33FD261E2F12D700ED81A2 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB33FD4F1E2F13B800ED81A2 /* NameAndColorCell.swift in Sources */,
 				CB33FD231E2F12D700ED81A2 /* ViewController.swift in Sources */,
 				CB33FD211E2F12D700ED81A2 /* AppDelegate.swift in Sources */,
 			);
